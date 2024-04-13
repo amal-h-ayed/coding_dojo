@@ -1,0 +1,28 @@
+{
+ #button-search ; #button-add; #button-primary;
+  display:block;
+  height:30px;
+}
+
+#button-search{
+    font-weight: 900;
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid ;
+    color:#7dc8c8 ;
+    background-color: #777;
+}
+#button-add{
+    width: 40px;
+    color: #fff;
+    background-color: #00d1b2;
+    border-radius: 50;
+    border: none;
+}
+#button-primary{
+    width: 150px;
+    border: 2px solid #000;
+    color: #fff;
+    background-color: #2b78e4;
+    box-shadow: 3px 3px black;
+}
