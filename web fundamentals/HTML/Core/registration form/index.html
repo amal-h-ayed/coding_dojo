@@ -7,9 +7,11 @@
 </head>
 <body>
     <h1>Registration Form</h1>
+    <div>
    
     <label> First name:*</label>
     <input type="text"><br/>
+    </div>
    
     <label>Last name:*</label>
     <input type="text"><br/>
@@ -28,15 +30,39 @@
   
    <p>Gender identity:</p><br/>
    <input type="radio"name=gender value="male">
+   <label for="Male"><strong>Male</strong></label>
    <input type="radio"name=gender value="female">
+   <label for="Female"><strong>Female</strong></label>
    <input type="radio"name= gender value="non-binary">
+   <label for="Non-binary"><strong>Non-binary</strong></label>
    <input type="radio"name=gender value="i prefer not to answer">
-   
-   <p>a short description about my self</p>
+   <label for="I prefer not to answer"><strong>I prefer not to answer</strong></label>
+
+    <p>a short description about my self</p>
    <textarea name="description" id="" cols="30" rows="10"></textarea><br/>
    
-   <label>favorite langiage:</label>
-   <sections</section>
+   <div>
+    <label>Favorite Language:</label>
+    <select name="snack">
+        <option value="javaScript">javaScript</option>
+        <option value="html">html</option>
+        <option value="css">css</option>
+        <option value="java">java</option>
+    </select>
+</div>
+<div>
+    <input type="checkbox" name="accept" id="accept">
+    <label for="accept">Yes,I would like to recieve periodic email updates</label>
+</div>
+<div>
+    <input type="submit" value="Create Account">
+</div>
+<h5>*Indicates a required field</h5>
+
+
+
+
+
 
 
 </body>
