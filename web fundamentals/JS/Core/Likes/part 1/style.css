@@ -1,0 +1,30 @@
+/* reset screen*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1000px;
+    margin-top :5% auto;
+    font-family:'roboto';
+}
+.container{
+    border: 2px solid black ;
+    width: 50%;
+    height:80px;  ;
+    margin:0px auto;
+    padding: 20px;
+}
+.top{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color:#f5d471;
+    width: 45px;
+    margin-right:10px;
+    box-shadow:5px 5px black;
+    border: 2px solid black;
+}
